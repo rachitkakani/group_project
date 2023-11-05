@@ -10,4 +10,3 @@ function openslidemenu(){
     
     
     
-    window.alert("Welcome to Restaurant");
