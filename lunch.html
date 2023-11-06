@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lunch.css">
+    <script src="lunch.js"></script>
+</head>
+<body>
+    <div class="food-menu-page">
+        <div class="container">
+          <hr>
+          <div class="section-header text-center">
+            <hr>
+            <div class="main-menu">
+              <h1>BUILD YOUR OWN</h1>
+              <ul class="listOfIngredients" id="recipe">
+                  <li>
+                    <label>
+                      <input type="checkbox" class="my-activity" name="recipe" value="9"><h3>VEGGIE<br>$9</h3>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                <li>
+                  <label>
+                    <input type="checkbox" class="my-activity" name="recipe" value="11.5"><h3>FISH/MEAT<br>$11.5</h3>
+                    <span class="checkmark"></span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <hr>
+          </div>
+          <div class="section" id="step1">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 1:</span>
+                  <div class="title">
+                    <span>B</span>
+                    <span>A</span>
+                    <span>S</span>
+                    <span>E</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="inner-sec">
+                  <h4>BURRITO</h4>
+                  <br>
+                  <div class="recipe">
+                    <div id="checkOrderBurrito" title="Risotto">
+                      <ul class="listOfIngredients" id="recipe1-1">
+                        <li>
+                          <label>
+                            <input type="checkbox" class="my-activity" name="base" value="0">White Rice
+                            <span class="checkmark"></span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="inner-sec">
+                  <h4>POKE BOWL</h4>
+                  <span class="choose">choose one or two for 50/50</span>
+                  <div class="recipe">
+                    <div id="checkOrderPoke" title="Risotto">
+                      <ul class="listOfIngredients" id="recipe1-2">
+                        <li>
+                          <label>
+                            <input type="checkbox" class="my-activity" name="base" value="0">White Rice
+                            <span class="checkmark"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" class="my-activity" name="base" value="0">Spring Mix
+                            <span class="checkmark"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" class="my-activity" name="base" value="0">Brown Rice
+                            <span class="checkmark"></span>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="checkbox" class="my-activity" name="base" value="0">Zuccini Noodles
+                            <span class="checkmark"></span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #step1 -->
+          <div class="section" id="step2">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 2:</span>
+                  <div class="title">
+                    <span>V</span>
+                    <span>E</span>
+                    <span>G</span>
+                    <span>G</span>
+                    <span>I</span>
+                    <span>E</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 col-sm-12">
+                <span class="choose">choose two</span>
+                <div class="recipe">
+                  <div id="checkOrderVeggie" title="Risotto">
+                    <ul class="listOfIngredients" id="recipe2">
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Argula
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Lettuce
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Spring Mix
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Spinach
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Kale
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="veggie" value="0">Cabbage
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #step2 -->
+          <div class="section" id="step3">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 3:</span>
+                  <div class="title">
+                    <span>P</span>
+                    <span>R</span>
+                    <span>O</span>
+                    <span>T</span>
+                    <span>E</span>
+                    <span>I</span>
+                    <span>N</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 col-sm-12">
+                <span class="choose">choose one</span>
+                <div class="recipe">
+                  <div id="checkOrderProtein" title="Risotto">
+                    <ul class="listOfIngredients" id="recipe3">
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Salmon
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="4">Tuna+1
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Beef
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Chicken
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Crabsticks
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="4">Lobster+1
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="4">Unagi (eel) +1
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Shrimp
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="protein" value="0">Smoked Salmon+1
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #step3 -->
+          <div class="section" id="step4">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 4:</span>
+                  <div class="title">
+                    <span>T</span>
+                    <span>O</span>
+                    <span>P</span>
+                    <span>P</span>
+                    <span>I</span>
+                    <span>N</span>
+                    <span>G</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 col-sm-12">
+                <span class="choose">$0.85 per one, &nbsp;&nbsp; <span class="ster">*</span>premium toppings $1.25</span>
+                <div class="recipe">
+                  <div id="checkOrderToppings" title="Risotto">
+                    <ul class="listOfIngredients" id="recipe4">
+                      <li>
+                        <label>
+                          <input type="checkbox" id="squaredOne" class="my-activity" name="topping" value="1.25">Avocado
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Cucumber
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Pineapple
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Mango
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Carrot
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Salsa
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Corn
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Edamame
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="1.25">Shiitake
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="1.25">Inari
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="1.25">Pickle Radish
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Kimchi
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="0.85">Mandarin Orange
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="1.25">Seaweed Salad
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="topping" value="1.25">Shredded Crabmeat
+                          <span class="ster">*</span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #step4 -->
+          <div class="section" id="step5">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 5:</span>
+                  <div class="title">
+                    <span>D</span>
+                    <span>R</span>
+                    <span>E</span>
+                    <span>S</span>
+                    <span>S</span>
+                    <span>I</span>
+                    <span>N</span>
+                    <span>G</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 col-sm-12">
+                <span class="choose">choose two</span>
+                <!--  -->
+                <div class="recipe">
+                  <div id="checkOrderDressing" title="Risotto">
+                    <ul class="listOfIngredients" id="recipe5">
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Spicy Mayo
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Wasabi Mayo
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Mango Mayo
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Honey Mustard
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Raspberry BBQ
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Unagi Sauce
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Teriyaki Sauce
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Sriracha
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Mayo
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Sesame Vinaigrette
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="dressing" value="0">Ginger Orange Vinaigrette
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div> <!-- #step5 -->
+          <div class="section" id="step6">
+            <div class="row">
+              <div class="col-md-2 col-sm-12">
+                <div class="section-title">
+                  <span>Step 6:</span>
+                  <div class="title">
+                    <span>G</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>N</span>
+                    <span>I</span>
+                    <span>S</span>
+                    <span>H</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 col-sm-12">
+                <span class="choose">choose as many as you can</span>
+                <!--  -->
+                <div class="recipe">
+                  <div id="checkOrderGarnish" title="Risotto">
+                    <ul class="listOfIngredients" id="recipe6">
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Tempura Bits
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Green Onion
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Fried Onion
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Sesame Seeds
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Ginger
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Jalapeno
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Bacon Bits
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Tobiko
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Furikake
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="my-activity" name="garnish" value="0">Dried Seaweed
+                          <span class="checkmark"></span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div> <!-- #step6 -->
+          <div class="section">
+            <strong>Amount (US$)</strong>: <input type="text" name="amount" id="amount" disabled />
+          </div>
+          <hr>
+        </div>
+      </div>
+</body>
+</html>
