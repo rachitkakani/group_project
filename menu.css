@@ -29,7 +29,7 @@ body{
 .nav a:hover{
     color: red;
     font-display: block;
-    transition: 0.4s;
+    transition: 0.1s;
 }
 .nav .close {
 position:absolute;
@@ -128,5 +128,12 @@ h2{
     font-display: block;
 }
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-30px);
+    background: rgb(227, 31, 145);
+    border-radius: 30%;
+}
+
+.column:hover,.h5:hover{
+    background-color: black;
+    color:#ffff;
 }
